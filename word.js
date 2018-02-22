@@ -8,7 +8,7 @@ const letter = require('letter.js')
 
 function Word() {
     // an array of new letter options representing the underlying word 
-    const letterObjects = {football, node, javascript, durham}; 
+    const letterObjects = ['football', 'node', 'javascript', 'durham']; 
     
     // a function that returns a string made of the place holders  created in letter.js
     function return() {
